@@ -1,5 +1,5 @@
 package edu.craptocraft.filtres;
 
 public interface Filtre {
-    public void execucio(String tasca);
+    public void execucio(String peticio);
 }

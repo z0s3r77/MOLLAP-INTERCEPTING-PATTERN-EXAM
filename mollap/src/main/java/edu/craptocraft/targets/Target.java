@@ -1,5 +1,5 @@
 package edu.craptocraft.targets;
 
 public interface Target {
-    public void execucio(String tasca);
+    public void execucio(String peticio);
 }

@@ -1,14 +1,10 @@
 package edu.craptocraft.filtres;
 
-public class Autoritzacio implements Filtre {
-
-
-    public Autoritzacio(){}
-
+public class Autoritzacio implements Filtre{
 
     @Override
-    public void execucio(String tasca) {
-        System.out.println("Autorización OK para "+tasca);        
+    public void execucio(String peticio) {
+        System.out.println("Autorización OK para "+peticio);        
     }
     
 }

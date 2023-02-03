@@ -7,9 +7,10 @@ import edu.craptocraft.filtres.Filtre;
 import edu.craptocraft.targets.Target;
 
 public class Tasques {
+
+    private Target target;
+    private List<Filtre> filtres = new ArrayList<Filtre>();
     
-    public Target target;
-    public List<Filtre> filtres = new ArrayList<Filtre>();
 
     public List<Filtre> getTasques(){
         return this.filtres;
@@ -19,19 +20,17 @@ public class Tasques {
         return this.target;
     }
 
-    public void afegirTasca(Filtre filtre){
-        this.filtres.add(filtre);
+    public void afegirTasca(Filtre tasca){
+        getTasques().add(tasca);
+
     }
 
     public void execucio(String peticio){
-        getTasques().stream()
-                    .forEach(filtre -> filtre.execucio(peticio));
+        getTasques().stream().forEach(target -> target.execucio(peticio));
         getTarget().execucio(peticio);
-                    
-    }   
+    }
 
-    public  void setTarget(Target target){
+    public void setTarget(Target target){
         this.target = target;
     }
 }
-
