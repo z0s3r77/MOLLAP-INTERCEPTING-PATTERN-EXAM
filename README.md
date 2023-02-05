@@ -12,8 +12,9 @@ En este repositorio propongo mi solución al examen de __Mollap__ presentado por
 Enlace al examen del profesor  @dfleta :  https://github.com/dfleta/mollap-intercepting-filter
 
 ## Metodología 
-###Diagrama UML
+### Diagrama UML
 Para poder resolver el examen se debía seguir el siguiente diagrama: 
+![diagrama_clases_UML_intercepting_filter](https://user-images.githubusercontent.com/80277545/216848700-8f55ca10-cdcc-441c-8fa1-1355c4b9b282.gif)
 
 
 ### Patrón de diseño
